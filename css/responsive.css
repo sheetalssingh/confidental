@@ -1,187 +1,223 @@
-@media screen and (min-width: 360px) and (max-width:780px){
-    h1{
-
-font-size: 30px;
-
-}
-    h1:after{
-
-width: 250px;
-
-}
-    h1:before{
-
-width: 40px;
-
-top: 44px;
-
-}
-.btn{
-	font-size:12px;
-}
-#header{
-	padding:20px 0 0;
-}
-.header-top{
-	padding:0 0 10px 0;
-	}
-.logo{
-    padding: 0 0 0;
-    display: block;
-    text-align: center;
-}
-.logo img{
-    max-width: 50%;
-}
-.call{
-   margin: 0 10px 0 0;
-    font-size: 14px;
-}
-.top-icon{
-   max-width: 20px;
-    height: auto;
-    margin: 0 5px 0 0;
-    padding-right: 0;
-}
-.header-bottom{
-	padding:10px 0 0;
-}
-.navbar-toggler{
-	background:var(--blueprimary);
-	padding:0 5px 2px;
-}
-.navbar-toggler-icon{
-	width:20px;
-	height:20px;
-}
-.carousel-caption{
-    width: 80%;
-    left: 20px;
-    right: 0;
-}
-.carousel-caption h2{
-
-font-size: 38px;
-}
-.carousel-caption span{
-    font-size: 20px;
-}
-.header-right{ 
-	padding:20px 0;
-}
-.slider-form{
-    position: relative;
-    top: 0;
-    margin: 20px 0 0 0;
-}
-.carousel-item .btn{
-    
-padding: 10px 20px;
-    
-font-size: 12px;
-}
-.services-col{
-    width: 80%;
-    margin: 70px auto 0;
-}
-.sub-header{
-	font-size:18px;	
-}
-.services-col p{
-	font-size:13px;
-}
-.services-col-cricle{
-	width: 80px;
-    height: 80px;
-    line-height: 75px;
-}
-.services-col-cricle img{
-	max-width: 30px;
-}
-.header-right{
-    padding: 10px 0;
-    text-align: center;
-}
-.header-bottom .btn{
+@media screen and (min-width: 360px) and (max-width:780px) {
+    h1 {
+        font-size: 25px;
+    }
+    h1:after {
+        width: 250px;
+    }
+    h1:before {
+        width: 40px;
+        top: 39px;
+    }
+    .btn {
+        font-size: 12px;
+    }
+    .responsive {
         display: none;
-    margin: 15px 0 0;
-    padding: 10px 20px;
-    font-size: 12px;
-}
-.social-icon-top{
-	padding:5px 0 0;
-}
-.social-icon-top a{
-	padding:0 10px 0 0;
-}
-.navbar-collapse{
-top: 43px;
-    background: var(--white);
-    padding: 20px 170px 20px 20px;
-	position:absolute;
-}
-.slider-form .btn{
-    margin-top: 20px;
-    width: 100%;
-}
-.slider-form .form-control{
-    margin-bottom: 10px;
-}
-.services-col .btn{
-	font-size:12px;
-}
-.book-appointment-section{
-	padding: 20px 0;	
-}
-.clinic-info{
-	width:100%;
-	margin:0;
-}
-.clinic-info h2, .form-box h2{
-	margin:0 0 15px;
-}
-.form-box a{
-	margin:0;}
-.clinic-info .add, .clinic-info .mail, .clinic-info .contact, .clinic-info .time {
-    margin-bottom: 15px;
-}
-.clinic-info .address, .clinic-info .mail-id, .clinic-info .contct-no, .clinic-info .clock-time{
-	font-size:12px;
-}
-.clinic-info .add .svg-inline--fa, .clinic-info .mail .svg-inline--fa, .clinic-info .contact .svg-inline--fa, .clinic-info .time .svg-inline--fa{
-	font-size:20px!important;	
-}
-.wel-head{
-	font-size:26px;
-}
-#about-us p{
-	font-size:13px;
-}
-.social-icon-bottom{
-	text-align:left;
-}
-.form-right{
-	position:static;
-	width:100%;
-	margin:10px 0 0;
-	box-shadow:none;	
-}
-.form-box{
-	float:none;
-	width:100%;
-}
-.form-right button, input, optgroup, select, textarea{
-	width:100%;	
-}
-#about-us h3{
-    margin: 20px 0 0;
-	font-size:20px;
-}
-#about-us{
-    padding: 60px 20px;
-}
-#footer .clock{
-    padding: 0 15px;
-}
-#footer p.copyright{width: 100%;}
+    }
+    #header {
+        padding: 5px 0 0;
+    }
+    .header-top {
+        padding: 0 0 10px 0;
+    }
+    .navbar a img {
+        max-width: 100px;
+    }
+    .navbar-toggler {
+        border-color: var(--blueprimary) !IMPORTANT;
+        padding: 0 5px 2px;
+    }
+    .navbar-nav .nav-link {
+        padding: 10px 5px !important;
+        display: block;
+        width: 100%;
+    }
+    .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .carousel-caption {
+        width: 80%;
+        left: 20px;
+        right: 0;
+        top: 9%;
+    }
+    .carousel-caption h2 {
+        font-size: 37px;
+    }
+    .carousel-caption span {
+        font-size: 20px;
+    }
+    .header-right {
+        padding: 20px 0;
+    }
+    .slider-form {
+        position: relative;
+        top: 0;
+        margin: 20px 0 0 0;
+    }
+    .carousel-item .btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .services-col:first-child {
+        /* margin: 60px auto 20px; */
+    }
+    .services-col {
+        width: 75%;
+        margin: 60px auto 25px;
+        min-height: 180px;
+    }
+    .sub-header {
+        font-size: 18px;
+    }
+    .services-col p {
+        font-size: 13px;
+    }
+    .services-col-cricle {
+        width: 70px;
+        height: 70px;
+        line-height: 65px;
+    }
+    .services-col-cricle img {
+        max-width: 25px;
+    }
+    .header-right {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .header-bottom .btn {
+        display: none;
+        margin: 15px 0 0;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .social-icon-top {
+        display: none;
+    }
+    .social-icon-top a {
+        padding: 0 10px 0 0;
+    }
+    .navbar-collapse {
+        top: 71px;
+        background: var(--white);
+        padding: 20px 20px 20px 20px;
+        position: absolute;
+        z-index: 1000;
+        right: 0;
+        min-width: 300px;
+        border-radius: 0 0 5px 5px;
+    }
+    .nav-item.active .nav-link,
+    .nav-item.active .nav-link:hover {
+        border-radius: 0;
+    }
+    .slider-form .btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .slider-form .form-control {
+        margin-bottom: 10px;
+    }
+    .services-col .btn {
+        font-size: 12px;
+        top: 159px;
+    }
+    .testimonial-review {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .book-appointment-section {
+        padding: 20px 0;
+    }
+    .clinic-info {
+        width: 100%;
+        margin: 0;
+    }
+    .clinic-info h2,
+    .form-box h2 {
+        margin: 0 0 15px;
+    }
+    .form-box a {
+        margin: 0;
+    }
+    .clinic-info .add,
+    .clinic-info .mail,
+    .clinic-info .contact,
+    .clinic-info .time {
+        margin-bottom: 15px;
+    }
+    .clinic-info .address,
+    .clinic-info .mail-id,
+    .clinic-info .contct-no,
+    .clinic-info .clock-time {
+        font-size: 12px;
+    }
+    .clinic-info .add .fa,
+    .clinic-info .mail .fa,
+    .clinic-info .contact .fa,
+    .clinic-info .time .fa {
+        font-size: 20px!important;
+    }
+    .header-bottom {
+        padding: 5px 0;
+    }
+    .call a,
+    .mail a {
+        font-size: 14px;
+    }
+    .header-style {
+        padding: 0 0 30px;
+    }
+    .wel-head {
+        font-size: 26px;
+    }
+    .services-col h3 {
+        margin: 20px auto;
+    }
+    #about-us p {
+        font-size: 13px;
+    }
+    #about-us img {
+        border-radius: 10px;
+    }
+    #about-us .btn {
+        margin-top: 10px;
+    }
+    .social-icon-bottom {
+        text-align: left;
+    }
+    .form-right {
+        position: static;
+        width: 100%;
+        margin: 10px 0 0;
+        box-shadow: none;
+    }
+    .form-box {
+        float: none;
+        width: 100%;
+    }
+    .form-right button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        width: 100%;
+    }
+    #about-us h3 {
+        margin: 25px 0 20px;
+        font-size: 20px;
+    }
+    #about-us {
+        padding: 60px 20px;
+        text-align: center;
+    }
+    #footer .clock {
+        padding: 0 15px;
+    }
+    #footer p.copyright {
+        width: 100%;
+        font-size: 10px;
+    }
 }
