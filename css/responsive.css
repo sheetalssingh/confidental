@@ -124,9 +124,13 @@
         font-size: 12px;
         top: 159px;
     }
+    #testimonials {
+        text-align: center;
+    }
     .testimonial-review {
         font-size: 14px;
         line-height: 24px;
+        text-align: center;
     }
     .book-appointment-section {
         padding: 20px 0;
