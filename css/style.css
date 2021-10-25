@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
 a:focus {
     /* border: 0!important; */
     box-shadow: none!important;
@@ -216,7 +220,6 @@ p {
 
 .header-right a:hover {
     color: var(--blueprimary);
-    text-decoration: none;
 }
 
 .header-top span {
@@ -250,10 +253,6 @@ p {
 
 .social-icon-top a i {
     font-size: 20px;
-}
-
-.header-bottom a:hover {
-    text-decoration: none;
 }
 
 .slider {
@@ -618,10 +617,6 @@ input.active {
     padding: 0 25px 0 0;
 }
 
-.social-icon-bottom a:hover {
-    text-decoration: none;
-}
-
 .social-icon-bottom a .fa {
     font-size: 24px!important;
     /* font-weight: bold; */
@@ -679,4 +674,93 @@ textarea {
 
 .form-box input.btn {
     margin: 40px 0 0;
+}
+
+
+/* CONTACT US start */
+
+#slide-small {
+    position: relative;
+    padding: 60px 20px;
+    background: url('../images/slide-small.jpeg') no-repeat;
+    background-size: cover;
+}
+
+#slide-small::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#slide-small h2 {
+    position: relative;
+    z-index: 100;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.map-section {
+    border-radius: 15px;
+    height: 500px;
+    margin: 20px 0 150px;
+    background: #000;
+    position: relative;
+}
+
+.contact {
+    position: relative;
+}
+
+.contact-us {
+    width: 960px;
+    height: 420px;
+    margin: 0 auto 10px auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 0 10px 4px rgb(0 0 0 / 50%);
+    bottom: 30px;
+}
+
+.contact-us .clinic-info {
+    background: url(../images/contact-img.jpg);
+    padding: 30px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0;
+}
+
+.contact-us .clinic-info .add,
+.contact-us .clinic-info .mail,
+.contact-us .clinic-info .contact,
+.contact-us .clinic-info .time {
+    margin-bottom: 15px;
+}
+
+.contact-us .clinic-info .social-icon-bottom {
+    text-align: left;
+}
+
+.contact-us .clinic-info p {
+    color: #fff;
+}
+
+.form-sec {
+    text-align: center;
+    padding: 30px;
+}
+
+.form-sec h2 {
+    font-size: 24px;
+    color: var(--blueprimary);
+    margin-bottom: 20px;
 }

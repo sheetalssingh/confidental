@@ -224,4 +224,15 @@
         width: 100%;
         font-size: 10px;
     }
+    #slide-small {
+        text-align: center;
+    }
+    .map-section {
+        margin-bottom: 15px;
+    }
+    .contact-us {
+        width: 100%;
+        position: static;
+        height: auto;
+    }
 }
