@@ -847,3 +847,7 @@ textarea {
     min-height: 300px;
     padding: 100px 20px 20px;
 }
+
+.invalid{
+    border: 1px solid red !important;
+}
