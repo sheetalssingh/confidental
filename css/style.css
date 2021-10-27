@@ -851,3 +851,7 @@ textarea {
 .invalid{
     border: 1px solid red !important;
 }
+#blogs h1::after, h1::{
+    content: ;
+    display: none;
+}
