@@ -8,8 +8,8 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/style.css?v=1.0">
-    <link rel="stylesheet" href="css/responsive.css?v=1.0">
+    <link rel="stylesheet" href="css/style.min.css?v=1.0">
+    <link rel="stylesheet" href="css/responsive.min.css?v=1.0">
     <title>ConfiDental Clinic & Implant Centre</title>
 </head>
 
@@ -24,9 +24,11 @@
                             <a class="navbar-brand" href="index.html">
                                 <img src="images/logo.jpg" class="img-fluid" alt="Confidental logo">
                             </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
@@ -34,13 +36,14 @@
                                         <a class="nav-link" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About Us</a>
+                                        <a class="nav-link" href="about-us.html">About Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="services.html">Services</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="testimonial.html">Testimonials</a>
+                                        <a class="nav-link"
+                                            href="https://www.google.com/search?client=ms-android-oppo&output=search&q=Confidental+Clinic+%26+lmplant+centre&ludocid=6593846002111325094&lsig=AB86z5UsefjyFbX2qFMjDt31KYkG&kgs=5b27cf7380cb5dc7&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local#lrd=0x3be7b1464941cb69:0x5b820c00d379a3a6,1">Testimonials</a>
                                     </li>
                                     <li class="nav-item active">
                                         <a class="nav-link" href="contact.html">Contact Us</a>
@@ -119,40 +122,47 @@
     <section class="contact">
         <div class="container">
             <div class="map-section">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15068.73895502672!2d72.8241359!3d19.2307789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5b820c00d379a3a6!2sConfi-DentalClinic%20%26%20lmplant%20Centre!5e0!3m2!1sen!2sin!4v1635157514952!5m2!1sen!2sin"
-                    width="100% " height="100% " style="border:0; border-radius: 15px; " allowfullscreen="" loading="lazy"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15068.73895502672!2d72.8241359!3d19.2307789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5b820c00d379a3a6!2sConfi-DentalClinic%20%26%20lmplant%20Centre!5e0!3m2!1sen!2sin!4v1635157514952!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0; border-radius: 15px;" allowfullscreen=""
+                    loading="lazy"></iframe>
             </div>
 
-            <div class="contact-us ">
-                <div class="row ">
-                    <div class="col-md-7 ">
-                        <div class="form-sec ">
+            <div class="contact-us">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="form-sec">
                             <h2>Send Message</h2>
-                            <form action="sendmail.php " method="GET " id="form1 ">
-                                <div class="form-group ">
-                                    <input type="text " name="fname " id="fname " placeholder="Your Name " class="form-control ">
+                            <form action="sendmsg.php" method="POST" id="form2">
+                                <div class="form-group">
+                                    <input type="text" name="name1" id="name1" placeholder="Your Name"
+                                        class="form-control">
                                 </div>
-                                <div class="form-group ">
-                                    <input type="email " name="email " id="email " placeholder="Your Email " class="form-control ">
+                                <div class="form-group">
+                                    <input type="email" name="email1" id="email1" placeholder="Your Email"
+                                        class="form-control">
                                 </div>
-                                <div class="form-group ">
-                                    <input type="text " name="mobile_no " id="mobile_no " placeholder="Contact No. " class="form-control ">
+                                <div class="form-group">
+                                    <input type="text" name="mobile_no1" id="mobile_no1" placeholder="Contact No."
+                                        class="form-control">
                                 </div>
-                                <div class="form-group ">
-                                    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" placeholder="Message" name="msg1"
+                                        id="msg1"></textarea>
                                 </div>
-                                <input type="submit " name="send " value="Submit " class="btn " form="form1 ">
-                                <!--<button type="submit " name="submit " class="btn " form="form1 ">Submit</button>-->
+                                <input type="submit" name="send" value="Submit" class="btn" form="form2">
+                                <!--<button type="submit" name="submit" class="btn" form="form1">Submit</button>-->
                             </form>
                         </div>
                     </div>
 
-                    <div class="col-md-5 ">
+                    <div class="col-md-5">
                         <div class="clinic-info">
                             <h2>Contact Us</h2>
                             <div class="add">
                                 <i class="fa fa-map-marker"></i>
-                                <p class="address">Shop no.6, Shree Gorai Ashish Chs, Plot NO. 68, Opp. Pepsi Ground Gate, Gorai-2 Borivali (W), Mumbai</p>
+                                <p class="address">Shop no.6, Shree Gorai Ashish Chs, Plot NO. 68, Opp. Pepsi Ground
+                                    Gate, Gorai-2 Borivali (W), Mumbai</p>
                             </div>
                             <div class="mail">
                                 <i class="fa fa-at"></i>
