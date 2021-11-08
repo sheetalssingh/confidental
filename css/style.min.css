@@ -632,46 +632,127 @@ textarea {
     border-bottom: 5px solid var(--blueprimary);
     border-left: 5px solid var(--blueprimary);
 }
-.services-box {
-    position: relative;
-    text-align: center;
-    padding: 70px 20px 20px;
-    box-shadow: 1px 1px 5px 0 rgba(134, 94, 94, 0.3);
-    -webkit-box-shadow: 1px 1px 5px 0 rgb(0 0 0 / 30%);
-    -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3);
-    min-height: 250px;
-    max-height: 250px;
-    transition: all 0.2s;
-    margin-bottom: 15px;
-    border: 1px solid transparent;
+#services .tooth-white{
+    background-image: url(../images/services/Dental\ Implant.jpg);
+    height: 350px;
+    margin: 10px 0;
+    background-repeat: no;
+    background-position:top;
+    border: 5px solid #0eb9b0;
+   
 }
-#services .services-15:hover,
-#services .services-6:hover,
-.services-box:hover {
-    padding: 50px 20px 20px;
-    box-shadow: 1px 1px 5px 0 rgba(134, 94, 94, 0);
-    -webkit-box-shadow: 1px 1px 5px 0 rgb(0 0 0 / 0%);
-    -moz-box-shadow: 1px 1px 5px 0 transparent;
-    border: 1px solid var(--blueprimary);
+
+#services .smile{
+    background-image: url(../images/services/smile-design.jpg);
+    height: 460px;
+    background-position: center;
+    border: 5px solid #0eb9b0;
+    background-repeat: no-repeats;
+    margin-top: 20px;
 }
-.services-box h2 {
-    padding: 15px 0;
-    font-size: 16px;
-    text-transform: capitalize;
+#services .denture{
+    background-image: url(../images/services/denture-side.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid #0eb9b0;
 }
-.services-box p {
-    font-size: 15px;
-    display: none;
-    transition: visibility 0s, opacity 0.5s linear;
+#services .crown1{
+    background-image: url(../images/services/crown.jpg);
+    height: 500px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    border: 5px solid #0eb9b0;
 }
-.services-box:hover p {
-    display: block;
-    padding-top: 20px;
+#services .root-canal{
+    background-image: url(../images/services/Root\ Canal\ Treatment.jpg);
+    height: 200px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border: 5px solid #0eb9b0;
+     
 }
-#services .services-15,
-#services .services-6 {
-    min-height: 300px;
-    padding: 100px 20px 20px;
+#services .veneers1{
+    background-image: url(../images/services/veneers.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border: 5px solid #0eb9b0;
+}
+#services .veneers2{
+    background-image: url(../images/services/Veneers-Before-After-5-en.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border: 5px solid #0eb9b0;
+}
+
+#services .veneers3{
+    background-image: url(../images/services/dental-veneers-porcelain-veneer-installation.jpeg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: 5px solid #0eb9b0;
+}
+#services .veneers4{
+    background-image: url(../images/services/image13-1\ veneers.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border: 5px solid #0eb9b0;
+}
+#services .crown2{
+    background-image: url(../images/services/crown-1.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30px 0;
+    border: 5px solid #0eb9b0;
+}
+#services .restorative{
+    background-image: url(../images/services/restorative\ dentistry001-copia-780x450.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30px 0;
+    border: 5px solid #0eb9b0;
+}
+#services .gum-treat{
+    background-image: url(../images/services/gums\ treatment.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 20px 0;
+    border: 5px solid #0eb9b0; 
+}
+#services .bridges{
+    background-image: url(../images/services/crown-bridge.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 20px 0;
+    border: 5px solid #0eb9b0; 
+}
+#services .dental-imp{
+    background-image: url(../images/services/Dental\ Implant.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 20px 0;
+    border: 5px solid #0eb9b0; 
+}
+#services .dental-imp1{
+    background-image: url(../images/services/crown-bridge.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 20px 0;
+    border: 5px solid #0eb9b0; 
 }
 .invalid {
     border: 1px solid red !important;
@@ -689,41 +770,10 @@ textarea {
 #about-us h2 {
     font-size: 25px;
 }
-#services .services-2 {
-    background: url(../images/services/dental-implant.jpg);
-    background-position: top;
-    position: relative;
+#about-us .dr-preeti{
+    margin-top: 60px;
 }
-#services .services-box::after {
-    content: " ";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    left: 0;
-    z-index: 1;
-    position: absolute;
-    top: 0px;
-    margin: 0 auto;
-}
-#services h2,
-p {
-    z-index: 100;
-    position: relative;
-    color: #fff;
-}
-#services h2::after {
-    content: " ";
-    display: block;
-    width: 86px;
-    height: 2px;
-    background: #fff;
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 40px;
-}
+
 
 
 .modal-body{
